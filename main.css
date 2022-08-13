@@ -164,10 +164,13 @@
     background-color: var(--background-light);
     transition: background-color 0.3s;
     animation:Items 1000ms ease-in forwards;
+   
+
   }
   
   .menu-item:hover {
     background-color: var(--background-light-hover);
+    
   }
   
   .menu-item img {
@@ -233,19 +236,7 @@
     }
   }
   
-/* @keyframes Items {
-  0%{
-    opacity: 0;
-    transform: scale(0.3) rotateY(90deg) translate(100px);
-  }
-  50%{
-    transform: scale(1.4) rotateY(180deg) translate(0px);
-  }
-  100%{
-    opacity:1;
-    transform: scale(1) rotateY(0);
-  }
-} */
+
 @keyframes Items {
   0%{
     opacity: 0;
